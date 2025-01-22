@@ -23,19 +23,23 @@ code {
   color: blueviolet;
 
 }
-.links{
-  margin-left: 25px auto;
+.navbar .links{
+  margin-left: auto;
 }
-
-.nav-links{
-  margin-left: 25px;
+.navbar a{
+  margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-  color: #333;
+}
 
-}
-.nav-links:hover{
+.navbar a:hover{
   color: blueviolet;
-  border: none;
 }
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: left;
+}
+
 
