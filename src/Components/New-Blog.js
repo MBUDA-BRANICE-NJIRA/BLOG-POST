@@ -70,14 +70,12 @@ const NewBlogs = () => {
         />
 
         <Button variant="primary" type="submit" className="button">
-          Blog
+          Save blog
         </Button>
         <ToastContainer />
       </Form>
 
-      {/* <p>title : {title}</p>
-      <p>auther : {auther}</p>
-      <p>body : {body}</p> */}
+      
     </div>
   );
 };

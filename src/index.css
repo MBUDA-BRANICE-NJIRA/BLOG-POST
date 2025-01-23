@@ -1,4 +1,9 @@
-body {
+*{
+  margin: 0;
+  font-family: "Quicksand";
+
+}
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,36 +15,76 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
+
 .navbar{
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #d5d5d5;
 }
 .navbar h2{
-  color: blueviolet;
+  color: rgb(138, 43, 226);
 
 }
-.navbar .links{
+.links{
   margin-left: auto;
 }
-.navbar a{
-  margin-left: 16px;
+.nav-links{
+  margin-left: 25px;
   text-decoration: none;
   padding: 6px;
+  color: #333;
 }
 
-.navbar a:hover{
+.navbar:hover{
   color: blueviolet;
+  border: none;
 }
-.content{
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  text-align: left;
+
+.blog-form{
+  width: 45%;
+  height: max-content;
+  padding: 10px;
+  margin-left: 27.5%;
+
+}
+
+
+.preview{
+  width: 60%;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  align-content: center;
+  height: 100%;
+  text-align: start;
+  margin: 20px 0;
+  border-bottom: 1px solid #dbdbdb;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+.preview :hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.preview h2{
+font-size: 15px;
+color: blueviolet;
+margin-left: 30px;
+font-weight: bold;
+margin-bottom: 6px;
+}
+.preview p{
+  color: black;
+  margin-left: 30px;
+}
+.preview a{
+  text-decoration: none;
+}
+
+.blog-list{
+  justify-content: center;
 }
 
 
