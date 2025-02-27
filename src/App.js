@@ -5,9 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import NewBlogs from "./Components/New-Blog";
+import BlogDetails from "./Components/BlogDetails";
 
 function App() {
-  return (
+  return ( 
     <Router>
       <div className="App">
         <Navbar />
@@ -20,6 +21,11 @@ function App() {
             <Route path="/New-Blog">
               <NewBlogs />
             </Route>
+
+            <Route path="/BlogDetails/:id">
+              <BlogDetails />
+            </Route>
+
           </Switch>
         </div>
       </div>

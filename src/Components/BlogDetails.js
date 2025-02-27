@@ -27,11 +27,12 @@ const BlogDetails = () => {
                     <h3>{blogs.title}</h3>
                     <p>Done by:{blogs.author}</p>
                     <div>{blogs.body}</div>
-                    <BUtton onclick={handleDelete}
-                    variant="danger" className= "mt-3" type="submit">delete Blog</BUtton>
+                    <Button onclick={handleDelete}
+                    variant="danger" className= "mt-3" type="submit">Delete Blog</Button>
                 </article>
             )}
         </div>
+        
     )
 }
 export default BlogDetails;
